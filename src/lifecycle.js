@@ -28,7 +28,10 @@ export default class Counter extends React.Component {
        return null;
 
     }
-
+   /* componentWillMount(){ // Unsafe way , and is restricted by React
+        console.log("Component Will Mount");
+        console.log("--------------------------");
+    }*/
 
     componentDidMount(){
         console.log("4 Component Did Mount");
